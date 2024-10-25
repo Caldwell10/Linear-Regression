@@ -79,6 +79,7 @@ plt.xlabel('Office Size (sq ft)')
 plt.ylabel('Office Price')
 plt.title('Office Size vs. Price with Best Fit Line after Training')
 plt.legend()
+plt.savefig("Office_Size_vs_Price_Best_Fit.png")
 plt.show()
 
 # Prediction for office size of 100 sq. ft
